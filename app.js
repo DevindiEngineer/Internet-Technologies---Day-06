@@ -114,13 +114,29 @@ console.log(superM.items[1].price);
 
 console.log(superM.items[2].id);
 console.log(superM.items[2].name);
-console.log(superM.items[2].price);*/
-
+console.log(superM.items[2].price);
 //======================DOM Manipulation===========================
 //Document object model
 
-document.write("<h2>Hi</h2>");
+document.write("<h2>Welcome!</h2>");
+
 console.log(document.title);
+
+let heading=document.getElementById("heading");
+heading.innerText="Devindi";
+//console.log(heading);*/
+
+//===========add a button============================================
+function changeHeading() {
+    heading.innerText="Devindi Wickramasinghe";
+    console.log("Clicked");
+    
+}
+
+
+
+
+
 
 
 
