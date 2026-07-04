@@ -131,7 +131,7 @@ function changeHeading() {
     heading.innerText="Devindi Wickramasinghe";
     console.log("Clicked");
     
-}*/
+}
 
 //==============counter app===================================
 let number = 0;
@@ -143,7 +143,13 @@ number=number-1;
 function minus() {
      heading.innerText="Devindi"+(--number);
      console.log("Clicked");
+}*/
+//=================print input value in heading==========================================
+function changeText() {
+    heading.innerText=inputText.value;
+    console.log("Clicked");
 }
+
 
 
 
