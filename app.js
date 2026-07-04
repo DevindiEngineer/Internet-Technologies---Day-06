@@ -159,6 +159,14 @@ function substration() {
     output = Number(inputNum1.value) - Number(inputNum2.value);
     finalanswer.innerText = "Answer - " + output;
 }
+function multiplication() {
+    output = Number(inputNum1.value) * Number(inputNum2.value);
+    finalanswer.innerText = "Answer - " + output;
+}
+function devision() {
+    output = Number(inputNum1.value) / Number(inputNum2.value);
+    finalanswer.innerText = "Answer - " + output;
+}
 
 
 
