@@ -124,15 +124,26 @@ console.log(document.title);
 
 let heading=document.getElementById("heading");
 heading.innerText="Devindi";
-//console.log(heading);*/
+//console.log(heading);
 
 //===========add a button============================================
 function changeHeading() {
     heading.innerText="Devindi Wickramasinghe";
     console.log("Clicked");
     
-}
+}*/
 
+//==============counter app===================================
+let number = 0;
+function plus() {
+    heading.innerText="Devindi"+(++number);
+    console.log("Clicked");
+}
+number=number-1;
+function minus() {
+     heading.innerText="Devindi"+(--number);
+     console.log("Clicked");
+}
 
 
 
