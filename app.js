@@ -143,13 +143,22 @@ number=number-1;
 function minus() {
      heading.innerText="Devindi"+(--number);
      console.log("Clicked");
-}*/
+}
 //=================print input value in heading==========================================
 function changeText() {
     heading.innerText=inputText.value;
     console.log("Clicked");
+}*/
+//======================Simple calculator exercise==================================
+let output;
+function addition() {
+    output = Number(inputNum1.value) + Number(inputNum2.value);
+    finalanswer.innerText = "Answer - " + output;
 }
-
+function substration() {
+    output = Number(inputNum1.value) - Number(inputNum2.value);
+    finalanswer.innerText = "Answer - " + output;
+}
 
 
 
