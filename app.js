@@ -148,25 +148,54 @@ function minus() {
 function changeText() {
     heading.innerText=inputText.value;
     console.log("Clicked");
-}*/
+}
 //======================Simple calculator exercise==================================
 let output;
 function addition() {
     output = Number(inputNum1.value) + Number(inputNum2.value);
-    finalanswer.innerText = "Answer - " + output;
+    finalanswer.innerText = "Answer = " + output;
 }
 function substration() {
     output = Number(inputNum1.value) - Number(inputNum2.value);
-    finalanswer.innerText = "Answer - " + output;
+    finalanswer.innerText = "Answer = " + output;
 }
 function multiplication() {
     output = Number(inputNum1.value) * Number(inputNum2.value);
-    finalanswer.innerText = "Answer - " + output;
+    finalanswer.innerText = "Answer = " + output;
 }
 function devision() {
     output = Number(inputNum1.value) / Number(inputNum2.value);
-    finalanswer.innerText = "Answer - " + output;
+    finalanswer.innerText = "Answer = " + output;
+}*/
+//===============Array(save data)=======================================================================
+let customerList = []
+
+function btnAddCustomerOnAction(){
+    let txtName= document.getElementById("txtName").value;
+    let txtAddress= document.getElementById("txtAddress").value;
+    let txtAge=document.getElementById("txtAge").value;
+    let txtEmail=document.getElementById("txtEmail").value;
+    let txtSalary=document.getElementById("txtSalary").value;
+
+    console.log(txtName);
+    console.log(txtAddress);
+    console.log(txtAge);
+    console.log(txtEmail);
+    console.log(txtSalary);
+
+    let customer={
+        name:txtName,
+        address:txtAddress,
+        age:txtAge,
+        email:txtEmail,
+        salary:txtSalary
+    }
+    console.log(customer);
+
+    customerList.push(customer);
+    console.log(customerList);    
 }
+//======================================================================================================
 
 
 
